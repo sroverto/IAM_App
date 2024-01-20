@@ -82,15 +82,11 @@ st.sidebar.markdown('''
                     )
 
 # TITLE
-col_title, col_img = st.columns([1, 0.2])
-with col_title:
-    st.title("Reliability Calculator")
-    st.write('''
-                This simple tool to calculate reliability has been developed for the students of the Industrial Asset
-                Management course of the University of Bergamo
+st.title("Reliability Calculator")
+st.write('''
+            This simple tool to calculate reliability has been developed for the students of the Industrial Asset
+            Management course of the University of Bergamo
                  ''')
-with col_img:
-    st.image("img/LogoUniBGFondoPositivo.png", width=200)
 st.write("---")
 
 # DATA INPUT
