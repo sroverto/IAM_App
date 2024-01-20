@@ -74,10 +74,9 @@ st.sidebar.markdown('''
 st.sidebar.subheader("How to use the app")
 st.sidebar.markdown('''
                     1. Enter the number of periods you have data for.
-                    2. Enter the failure and censored data in the columns.
-                    3. Click the 'Submit data' button
-                    4. Select how many reliability periods you want to compute
-                    5. Click the 'Calculate reliability' button
+                    2. Enter the failure and censored data in the table.
+                    3. Select how many reliability periods you want to compute.
+                    4. Click the 'Calculate reliability' button.
                     '''
                     )
 
